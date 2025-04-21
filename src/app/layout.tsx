@@ -28,7 +28,7 @@ export default function RootLayout({
                         k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
                       })(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
         
-                      ym(100735698, "init", {
+                      ym(101262698, "init", {
                         clickmap:true,
                         trackLinks:true,
                         accurateTrackBounce:true,

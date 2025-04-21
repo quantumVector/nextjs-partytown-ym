@@ -5,7 +5,7 @@ export default function Home() {
     <div>
       Test PartyTown
       <button onClick={() => {
-        ym(100735698,'reachGoal','click_btn');
+        ym(101262698,'reachGoal','click_btn');
       }}>Test ym event</button>
     </div>
   );
