@@ -9,7 +9,7 @@ export default function RootLayout({
   return (
     <html lang="en">
     <head>
-      <Partytown forward={["dataLayer.push", "ym", "ym.a", "ym.a.push"]} />
+      <Partytown forward={["dataLayer.push", "ym", "ym.a", "ym.a.push"]} lib="/nextjs-partytown-ym/~partytown/" />
       <Script
         id="ym"
         type="text/partytown"
