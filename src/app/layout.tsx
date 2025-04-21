@@ -9,12 +9,14 @@ export default function RootLayout({
   return (
     <html lang="en">
     <head>
-      <Partytown forward={["dataLayer.push", "ym", "ym.a", "ym.a.push"]} lib="/nextjs-partytown-ym/~partytown/" />
-      <Script
+      <Partytown forward={["dataLayer.push", "ym", "ym.a", "ym.a.push"]}
+                 lib="/nextjs-partytown-ym/~partytown/"
+      />
+      <script
         id="ym"
         type="text/partytown"
-        strategy="worker"
-        // suppressHydrationWarning
+        // strategy="worker"
+        suppressHydrationWarning
         dangerouslySetInnerHTML={{
           __html: `
                       window.dataLayer = window.dataLayer || [];
