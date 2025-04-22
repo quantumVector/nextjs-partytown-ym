@@ -12,15 +12,16 @@ export default function RootLayout({
         src="/nextjs-partytown-ym/~partytown/partytown.js"
         strategy="beforeInteractive"
       />
-      <Script
-        src="/nextjs-partytown-ym/~partytown/partytown-sw.js"
-        strategy="beforeInteractive"
-      />
+      {/*<Script*/}
+      {/*  src="/nextjs-partytown-ym/~partytown/partytown-sw.js"*/}
+      {/*  strategy="beforeInteractive"*/}
+      {/*/>*/}
       <script
         dangerouslySetInnerHTML={{
           __html: `
               partytown = {
-                forward: ["dataLayer.push", "ym", "ym.a", "ym.a.push"]
+                forward: ["dataLayer.push", "ym", "ym.a", "ym.a.push"],
+                lib: "/nextjs-partytown-ym/~partytown/"
               };
             `,
         }}
