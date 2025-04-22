@@ -8,10 +8,10 @@ export default function RootLayout({
   return (
     <html lang="en">
     <head>
-      <Script
-        src="/nextjs-partytown-ym/~partytown/partytown.js"
-        strategy="beforeInteractive"
-      />
+      {/*<Script*/}
+      {/*  src="/nextjs-partytown-ym/~partytown/partytown.js"*/}
+      {/*  strategy="beforeInteractive"*/}
+      {/*/>*/}
       {/*<Script*/}
       {/*  src="/nextjs-partytown-ym/~partytown/partytown-sw.js"*/}
       {/*  strategy="beforeInteractive"*/}
