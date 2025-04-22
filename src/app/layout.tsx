@@ -1,6 +1,4 @@
-// import { Partytown } from "@qwik.dev/partytown/react";
 import Script from "next/script";
-// import Script from "next/script";
 
 export default function RootLayout({
                                      children,
@@ -12,6 +10,10 @@ export default function RootLayout({
     <head>
       <Script
         src="/nextjs-partytown-ym/~partytown/partytown.js"
+        strategy="beforeInteractive"
+      />
+      <Script
+        src="/nextjs-partytown-ym/~partytown/partytown-sw.js"
         strategy="beforeInteractive"
       />
       <script
